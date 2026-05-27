@@ -1,0 +1,31 @@
+[
+  {
+    "session_id": "af856824-94c2-410a-bb55-18a928e82919",
+    "timestamp": "2026-05-23T18:19:48.353266",
+    "model_hash": "6a88d31e947ba1383f2bbc0c8959d7a433bd3449b401d0738c16ed5fb5732354",
+    "model_name": "LogisticRegression",
+    "domain": "general",
+    "feedback": [
+      {
+        "finding_id": "L0.1",
+        "finding_name": "Class Imbalance",
+        "action": "confirm",
+        "original_severity": "CRITICAL",
+        "new_severity": null,
+        "user_note": null
+      },
+      {
+        "finding_id": "L2.2",
+        "finding_name": "Label Shift (Label Shift)",
+        "action": "confirm",
+        "original_severity": "HIGH",
+        "new_severity": null,
+        "user_note": null
+      }
+    ],
+    "original_health_score": 55,
+    "validated_health_score": 55,
+    "findings_removed": 0,
+    "findings_escalated": 0
+  }
+]
